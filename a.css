@@ -1,0 +1,34 @@
+#menu ul{
+    list-style:none;
+    }
+#menu ul li
+    {
+    width: 200px;
+    background-color:purple;
+    text-align: center;
+    float: left;
+    position: relative;
+    }
+#menu ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+    }
+#menu ul li:hover{
+    background-color:rgb(255, 60, 0);
+    cursor:pointer;
+    }
+#menu ul ul{
+    display: none;
+        width: 60px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: -40px;
+    }
+#menu ul li:hover ul{
+        display: block;
+        }
+        tr td{
+            text-shadow: 1px red;
+        }

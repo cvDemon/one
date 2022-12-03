@@ -1,0 +1,21 @@
+table {
+	border-style:solid;
+	border-left-width:5px;
+	border-top-width:5px;
+	border-top-color:orange;
+	border-left-color:#339900;
+	background-color: rgb(95, 95, 40);
+	}
+	th{
+	font-size:20px;
+	color:white;
+	text-shadow: black;
+}
+	td{
+	font-size:16px;
+	color:gold;
+}
+tr:nth-child(odd){
+	background-color:green;
+	border-color:#bce672;
+	}
